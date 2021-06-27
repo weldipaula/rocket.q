@@ -1,0 +1,13 @@
+<html>
+  <head>
+    <title>Senha incorreta</title>
+    <script>
+      //confir nao deixa prosseguir enquanto nao for respondido
+      confirm('Senha incorreta')
+      
+      //replace redireciona para o caminho setado a direta 
+      //sem deixar que o usuario consiga utilizar o voltar
+      window.location.replace('/room/<%= roomId %>')
+    </script>
+  </head>
+</html>
